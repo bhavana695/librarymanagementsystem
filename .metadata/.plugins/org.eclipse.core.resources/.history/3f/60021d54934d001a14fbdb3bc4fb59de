@@ -1,0 +1,20 @@
+package com.capgemini.librarymanagementsystem.service;
+
+import java.util.List;
+
+import com.capgemini.librarymanagementsystem.dto.BookInfoBean;
+import com.capgemini.librarymanagementsystem.dto.User;
+
+public interface AdminInterface {
+	
+	public boolean updateUser(int id);
+	public boolean deleteUser(int id);
+	public List<String> viewAllUsers(String type);
+	public String add(User u);
+    public List<String> viewAllBook();
+    public List<String> searchAllBook();
+    public String addbook(BookInfoBean bookInfo);
+    
+
+}
+

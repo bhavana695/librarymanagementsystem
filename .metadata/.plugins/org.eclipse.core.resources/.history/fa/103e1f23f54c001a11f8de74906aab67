@@ -1,0 +1,19 @@
+package com.capgemini.librarymanagementsystem.dao;
+
+import com.capgemini.librarymanagementsystem.dto.BookInfoBean;
+import com.capgemini.librarymanagementsystem.dto.StudentDTO;
+
+
+
+import java.util.List;
+
+public interface StudentDao {
+
+	
+	public StudentDTO loginStudent(int id, String password);
+	List<BookInfoBean> searchBook(String bookName);
+//	public boolean borrowBook(String bookname);
+//	public boolean returnBook(String bookname);
+	
+	
+}

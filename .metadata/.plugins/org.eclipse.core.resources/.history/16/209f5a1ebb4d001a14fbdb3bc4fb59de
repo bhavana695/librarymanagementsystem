@@ -1,0 +1,67 @@
+package com.capgemini.librarymanagementsystem.serviceimpl;
+
+import java.util.List;
+
+import com.capgemini.librarymanagementsystem.daoimpl.AdminDao;
+import com.capgemini.librarymanagementsystem.dto.BookInfoBean;
+import com.capgemini.librarymanagementsystem.dto.User;
+import com.capgemini.librarymanagementsystem.service.AdminInterface;
+
+public class Admin implements AdminInterface {
+	private AdminDao dao = new AdminDao();
+	
+	
+
+	
+	public User loginAdmin(String email, String password) {
+		return dao.loginAdmin(email, password);
+	}
+
+	
+
+	public boolean deleteUser(int id) {
+
+		return dao.deleteUser(id);
+	}
+
+	public List<String> viewAllUsers(String type) {
+		List<String> res = dao.viewAllUsers(type);
+		return res;
+	}
+
+	@Override
+	public boolean add(User u) {
+		return dao.add(u);
+
+	}
+
+	public String addbook(BookInfoBean bookInfo) {
+		return dao.addbook(bookInfo);
+	}
+
+
+	public List<String> searchAllBooks(String bookname) {
+
+		List<String> res1 = dao.searchAllBooks(bookname);
+		return null;
+	}
+
+	@Override
+	public boolean updateUser(int id) {
+		
+		return false;
+	}
+
+	
+
+	@Override
+	public List<String> viewAllBooks() {
+		
+		return null;
+	}
+
+	
+
+
+
+}

@@ -3,88 +3,83 @@ package com.capgemini.librarymanagementsystem.serviceimpl;
 import java.util.List;
 
 import com.capgemini.librarymanagementsystem.daoimpl.AdminDao;
-import com.capgemini.librarymanagementsystem.dto.BookInfo;
+import com.capgemini.librarymanagementsystem.dto.BookInfoBean;
 import com.capgemini.librarymanagementsystem.dto.User;
 import com.capgemini.librarymanagementsystem.service.AdminInterface;
-
-
+import com.capgemini.librarymanagementsystem.validations.ValidateEmail;
+import com.capgemini.librarymanagementsystem.validations.ValidateId;
+import com.capgemini.librarymanagementsystem.validations.ValidatePassword;
 
 public class Admin implements AdminInterface {
-
 	private AdminDao dao = new AdminDao();
-    User u=new User();
-    BookInfo b=new BookInfo();
 
 
-public Admin() {
-		super();
+
+
+	public User loginAdmin(String email, String password) {
+		return dao.loginAdmin(email, password);
 	}
 
 
-public Admin(User user) {
-	super();
-	this.u = user;
-}
 
-public Admin(BookInfo book) {
-  super();
-  this.b=book;
-  
-}
-public User loginAdmin(String id, String password) {
-	return dao.loginAdmin(id, password);
-}
+	public boolean deleteUser(int id) {
+		if(ValidateId.isValidIdNumber(Integer.toString(id))) {
+			return dao.deleteUser(id);
+		}
+		return false;
+	}
+	public List<String> viewAllUsers(String type) {
+		List<String> res = dao.viewAllUsers(type);
+		return res;
+	}
 
+	@Override
+	public boolean add(User u) {
+		if(ValidateEmail.isValid(u.getEmail())&&ValidatePassword.validate(u.getPassword())) {
+			return dao.add(u);
 
-public int adduser(String username, String password) {
-	
-	return  dao.adduser( username,  password);
-} 
+		} 
+		return false;
+	}
 
-//public int addbook(String Bookname,String BookId) {
-	//return dao.addbook(Bookname,BookId);
-//}
-
-public boolean  updateUser(String id) {
-	
-	return dao.updateUser(id);
-	
-	
-}
-
-public boolean deleteUser(String id) {
-	
-	return dao.deleteUser(id);
-}
-
-public List<String> viewAllUsers(String type) {
-	List<String>res =  dao.viewAllUsers(type);
-	return res;
-}
-
-@Override
-public String add(User u) {
-	return dao.add(u);
-	
-}
+	public boolean addbook(BookInfoBean bookInfo) {
+		return dao.addbook(bookInfo);
+	}
 
 
-public String  addbook(BookInfo bookInfo) {
-	return dao.addbook(bookInfo);
-}
+	public List<String> searchAllBooks(String bookname) {
+
+		List<String> res1 = dao.searchAllBooks(bookname);
+		return res1;
+	}
+
+	@Override
+	public boolean updateUser(int id, User user) {
+
+		return dao.updateUser(id, user);
+	}
 
 
-public String addbook(String string, String string2, String string3, double d, int i) {
-	return dao.addbook(b);
-}
+
+	@Override
+	public List<String> viewAllBooks() {
+
+		return null;
+	}
 
 
-public List<String> searchAllBook(String string) {
 
-	Object String;
-	List<String > res1=dao.searchAllBook(string);
-	return res1;
-}
+	@Override
+	public boolean deleteBook(int id) {
+		if(ValidateId.isValidIdNumber(Integer.toString(id))) {
+			return dao.deleteBook(id);
+			
+		}
+		return false;
+	}
+
+
+
 
 
 }

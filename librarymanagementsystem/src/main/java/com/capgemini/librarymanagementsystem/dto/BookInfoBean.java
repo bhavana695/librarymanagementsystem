@@ -1,0 +1,66 @@
+package com.capgemini.librarymanagementsystem.dto;
+
+public class BookInfoBean {
+	private int Id;
+	private int Bookid;
+	private String Bookname;
+	private String Authorname;
+
+	private int Price;
+	private int Quantity;
+	public int getId() {
+		return Id;
+	}
+	public void setId(int id) {
+		Id = id;
+	}
+	public int getBookid() {
+		return Bookid;
+	}
+	public void setBookid(int bookid) {
+		Bookid = bookid;
+	}
+	public String getBookname() {
+		return Bookname;
+	}
+	public void setBookname(String bookname) {
+		Bookname = bookname;
+	}
+	public String getAuthorname() {
+		return Authorname;
+	}
+	public void setAuthorname(String authorname) {
+		Authorname = authorname;
+	}
+
+	public int getPrice() {
+		return Price;
+	}
+	public void setPrice(int d) {
+		Price = d;
+	}
+	public int getQuantity() {
+		return Quantity;
+	}
+	public void setQuantity(int quantity) {
+		Quantity = quantity;
+	}
+	public BookInfoBean(int id, int bookid, String bookname, String authorname, int borrowed, int returned, int price,
+			int quantity) {
+		super();
+		Id = id;
+		Bookid = bookid;
+		Bookname = bookname;
+		Authorname = authorname;
+
+		Price = price;
+		Quantity = quantity;
+	}
+	public BookInfoBean() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+
+
+}

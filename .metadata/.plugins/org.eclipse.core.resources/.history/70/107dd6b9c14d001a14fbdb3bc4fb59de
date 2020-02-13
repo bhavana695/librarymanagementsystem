@@ -1,0 +1,27 @@
+package com.capgemini.librarymanagementsystem.dao;
+
+import java.util.List;
+
+import com.capgemini.librarymanagementsystem.dto.User;
+
+public interface AdminDaoInterface {
+	public User loginAdmin(String username, String password);
+
+	
+
+	public boolean updateUser(int id, User user);
+
+	public boolean deleteUser(int id);
+
+	public boolean addbook(int bookid);
+
+	public List<String> searchAllBooks(String bookname);
+
+	public List<String> viewAllUsers(String type);
+
+	public boolean add(User u);
+	
+}
+	
+	
+

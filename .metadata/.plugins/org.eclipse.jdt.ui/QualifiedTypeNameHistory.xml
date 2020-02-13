@@ -13,11 +13,24 @@
 <fullyQualifiedTypeName name="com.capgemini.librarymanagementsystem.dao.StudentDaoInterface"/>
 <fullyQualifiedTypeName name="com.capgemini.librarymanagementsystem.service.StudentInterface"/>
 <fullyQualifiedTypeName name="com.capgemini.librarymanagementsystem.serviceimpl.Student"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="org.apache.log4j.LogManager"/>
 <fullyQualifiedTypeName name="org.apache.log4j.Logger"/>
 <fullyQualifiedTypeName name="org.mindrot.jbcrypt.BCrypt"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="util.PasswordEncoder"/>
 <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.capgemini.librarymanagementsystem.daoimpl.AdminDao"/>
+<fullyQualifiedTypeName name="com.capgemini.librarymanagementsystem.dto.StudentDTO"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.capgemini.librarymanagementsystem.daoimpl.StudentImpl"/>
+<fullyQualifiedTypeName name="com.capgemini.librarymanagementsystem.dto.BookInfo"/>
+<fullyQualifiedTypeName name="com.capgemini.librarymanagementsystem.exceptions.InvalidOptionException"/>
+<fullyQualifiedTypeName name="com.capgemini.librarymanagementsystem.service.StudentService"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.awt.print.Book"/>
+<fullyQualifiedTypeName name="com.capgemini.librarymanagementsystem.validations.ValidateEmail"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="com.capgemini.librarymanagementsystem.dto.StudentBean"/>
+<fullyQualifiedTypeName name="com.capgemini.librarymanagementsystem.dto.User"/>
+<fullyQualifiedTypeName name="com.capgemini.librarymanagementsystem.validations.ValidatePassword"/>
 </qualifiedTypeNameHistroy>

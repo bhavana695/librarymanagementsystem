@@ -1,0 +1,89 @@
+package com.capgemini.librarymanagementsystem.serviceimpl;
+
+import java.util.List;
+
+import com.capgemini.librarymanagementsystem.daoimpl.AdminDao;
+import com.capgemini.librarymanagementsystem.dto.BookInfoBean;
+import com.capgemini.librarymanagementsystem.dto.User;
+import com.capgemini.librarymanagementsystem.service.AdminInterface;
+
+public class Admin implements AdminInterface {
+	private AdminDao dao = new AdminDao();
+	User u = new User();
+	BookInfoBean b = new BookInfoBean();
+
+	public Admin() {
+		super();
+	}
+
+	public Admin(User user) {
+		super();
+		this.u = user;
+	}
+
+	public Admin(BookInfoBean book) {
+		super();
+		this.b = book;
+
+	}
+
+	public User loginAdmin(String id, String password) {
+		return dao.loginAdmin(id, password);
+	}
+
+	public int adduser(String username, String password) {
+
+		return dao.adduser(username, password);	
+		}
+
+	public String adduser(User user) {
+		return dao.add(user);
+	}
+
+	
+
+	public boolean updateUser(int id, User user) {
+
+		return dao.updateUser(id, user);
+
+	}
+
+	public boolean deleteUser(int id) {
+
+		return dao.deleteUser(id);
+	}
+
+	public List<String> viewAllUsers(String type) {
+		List<String> res = dao.viewAllUsers(type);
+		return res;
+	}
+
+	@Override
+	public String add(User u) {
+		return dao.add(u);
+
+	}
+
+	public String addbook(BookInfoBean bookInfo) {
+		return dao.addbook(bookInfo);
+	}
+
+	public String addbook(String string, String string2, String string3, double d, int i) {
+		return dao.addbook(b);
+	}
+
+	public List<String> searchAllBook(String string) {
+
+		List<String> res1 = dao.searchAllBook(string);
+		return res1;
+	}
+
+	@Override
+	public boolean updateUser(int id) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+
+
+}

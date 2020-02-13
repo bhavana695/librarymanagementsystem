@@ -12,3 +12,7 @@
 1581400265313	Rename type 'StudentDao'
 1581400289854	Rename type 'UserDao'
 1581404222045	Rename type 'Student'
+1581442526396	Rename type 'BookInfo'
+1581442843413	Rename compilation unit 'StudentDTO.java'
+1581442949049	Rename compilation unit 'StudentInterface.java'
+1581442980556	Rename type 'Student'

@@ -1,0 +1,182 @@
+package com.capgemini.librarymanagementsystem.controller;
+
+
+import java.util.List;
+import java.util.Scanner;
+
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
+
+import com.capgemini.librarymanagementsystem.dto.BookInfoBean;
+import com.capgemini.librarymanagementsystem.dto.User;
+import com.capgemini.librarymanagementsystem.service.AdminInterface;
+import com.capgemini.librarymanagementsystem.serviceimpl.Admin;
+
+public class AdminController {
+	static Logger log = LogManager.getLogger("admin");
+	Scanner scan = new Scanner(System.in); 
+	void  details(){
+		
+		log.info("Admin Login successfully");
+		log.info(" Choose Admin operations are:");
+	
+		log.info("1.View Users");
+		log.info("2.Add User");
+		log.info("3.Delete User");
+		log.info("4.Update User");
+		log.info("5.Search Book");
+		log.info("6.Add Book");
+		
+		
+		int i = scan.nextInt();
+		switch (i) {
+		
+		case 1: {
+			Admin a1 = new Admin();
+			System.out.println("Enter user type");
+			String usertype=scan.next();
+			List<String> result = a1.viewAllUsers("Student");
+			for (String str : result) {
+				log.info(str);
+			}
+			break;
+		}
+		case 2: 
+
+		{
+
+			Admin a2 = new Admin();
+			User user = new User();
+
+			log.info("Enter User details:");
+			log.info("Enter Usertype");
+			String usertype = scan.next();
+			user.setUsertype(usertype);
+
+			log.info("Enter Username");
+			String username = scan.next();
+			user.setUsername(username);
+
+			log.info("Enter Id");
+			int id = scan.nextInt();
+			user.setId(id);
+
+			log.info("Enter Password");
+			String password = scan.next();
+			user.setPassword(password);
+
+			log.info("Enter Email");
+			String email = scan.next();
+			user.setEmail(email);
+
+			log.info("Enter Contact no");
+			long contact = scan.nextLong();
+			user.setContact(contact);
+
+		
+		
+			break;
+
+			
+		}
+		case 3: {
+			Admin a3 = new Admin();
+
+			log.info("Enter the id of user you want to delete: ");
+			int id = scan.nextInt();
+
+			boolean delete = a3.deleteUser(id);
+			log.info("Record deleted: " + delete);
+
+			break;
+		}
+		case 4: {
+			Admin a4 = new Admin();
+			User user = new User();
+
+			log.info("Enter the id of user you want to update: ");
+			int id = scan.nextInt();
+			log.info("Enter username");
+			String username=scan.next();
+			user.setUsername(username);
+			
+			log.info("Enter password");
+			String password=scan.next();
+			user.setPassword(password);
+			
+			log.info("Enter email id");
+			String email=scan.next();
+			user.setEmail(email);
+			
+			log.info("Enter contact no");
+			long contact=scan.nextLong();
+			user.setContact(contact);
+			
+				boolean res=a4.updateUser(id, user);
+			if(res)
+				log.info("Updation successfull");
+			else
+				log.info("Updation failed");
+			break;
+		}
+
+		case 5: {
+			Admin a5 = new Admin();
+			log.info("Search book name");
+			String name=scan.next();
+			List<String> search = a5.searchAllBook(name);
+			log.info("Searched book is:" + search);
+			break;
+		}
+
+		case 6: {
+			Admin a6 = new Admin();
+			BookInfoBean book=new BookInfoBean(); 
+			User user=new User();
+			log.info("Enter the book details:");
+			
+			log.info("Enter id");
+			int id = scan.nextInt();
+			log.info("Enter bookId");
+			int bookId=scan.nextInt();
+			book.setBookid(bookId);
+			log.info("Enter bookname");
+			String bookname=scan.next();
+			book.setBookname(bookname);
+			log.info("No of books borrowed ");
+			int borrow = scan.nextInt();
+			book.setBorrowed(borrow);
+			log.info("No of books returned ");
+			int returned = scan.nextInt();
+			book.setBorrowed(returned);
+			log.info("Enter author name");
+			String authorname=scan.next();
+			book.setAuthorname(authorname);
+			log.info("Enter book price");
+			int  price=scan.nextInt();
+			book.setPrice(price);
+			
+			log.info("Enter book quantity");
+			int quantity=scan.nextInt();
+			book.setQuantity(quantity);
+		log.info(a6.addbook(new BookInfoBean(id,bookId, bookname,authorname, borrow, returned,
+			price, quantity)));	
+			
+		}
+		case 7: {
+			Admin a5 = new Admin();
+			
+			log.info("enter bookname");
+			String username = scan.next();
+		//	user.setUsername(username);
+
+			a5.loginAdmin("2", "Abc");
+
+		}
+		default: {
+			log.info("Invalid Choice...");
+		}
+
+		}
+	}
+}

@@ -1,0 +1,82 @@
+package com.capgemini.librarymanagementsystem.dto;
+
+public class BookInfoBean {
+
+	private int Id;
+	private int BookId;
+	private String Bookname;
+	private String Authorname;
+	private double Price;
+	private int Quantity;
+	private int Borrowed;
+	private int Returned;
+	
+	
+	public int getId() {
+		return Id;
+	}
+	public void setId(int id) {
+		Id = id;
+	}
+	public int getBookId() {
+		return BookId;
+	}
+	public void setBookId(int bookId) {
+		BookId = bookId;
+	}
+	public String getBookname() {
+		return Bookname;
+	}
+	public void setBookname(String bookname) {
+		Bookname = bookname;
+	}
+	public String getAuthorname() {
+		return Authorname;
+	}
+	public void setAuthorname(String authorname) {
+		Authorname = authorname;
+	}
+	public double getPrice() {
+		return Price;
+	}
+	public void setPrice(double price) {
+		Price = price;
+	}
+	public int getQuantity() {
+		return Quantity;
+	}
+	public void setQuantity(int quantity) {
+		Quantity = quantity;
+	}
+	public int getBorrowed() {
+		return Borrowed;
+	}
+	public void setBorrowed(int borrowed) {
+		Borrowed = borrowed;
+	}
+	public int getReturned() {
+		return Returned;
+	}
+	public void setReturned(int returned) {
+		Returned = returned;
+	}
+	public BookInfoBean(int id, int bookId, String bookname, String authorname, double price, int quantity,
+			int borrowed, int returned) {
+		super();
+		Id = id;
+		BookId = bookId;
+		Bookname = bookname;
+		Authorname = authorname;
+		Price = price;
+		Quantity = quantity;
+		Borrowed = borrowed;
+		Returned = returned;
+	}
+	public BookInfoBean() {
+		super();
+	}
+
+	
+	
+
+}

@@ -1,0 +1,76 @@
+package com.capgemini.librarymanagementsystem.serviceimpl;
+
+import java.util.List;
+
+import com.capgemini.librarymanagementsystem.daoimpl.StudentImpl;
+import com.capgemini.librarymanagementsystem.dto.BookInfoBean;
+import com.capgemini.librarymanagementsystem.dto.StudentDTO;
+import com.capgemini.librarymanagementsystem.service.StudentInterface;
+
+public class Student implements StudentInterface{
+	
+	
+	private StudentImpl impl = new StudentImpl();
+    StudentDTO u=new StudentDTO();
+    BookInfoBean b=new BookInfoBean();
+
+	public Student() {
+		super();
+	}
+
+	
+	public Student(BookInfoBean b) {
+		super();
+		this.b = b;
+	}
+
+
+	public Student(StudentDTO u) {
+		super();
+		this.u = u;
+	}
+
+
+	public StudentDTO loginStudent(int id, String password) {
+		
+		return  impl.loginStudent( id,  password);
+	} 
+	
+	
+	public BookInfoBean searchAllBook(int bookname) {
+
+		
+		
+		return null;
+	}
+
+
+	public List<BookInfoBean> searchBook(String bookName) {
+		List<BookInfoBean> res1=impl.searchBook(bookName);
+		return res1;
+	}
+
+
+	public void borrowBook() {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+	public void returnBook() {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+	public BookInfoBean searchBook(int bookid) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+		
+		
+	
+
+
+
+}

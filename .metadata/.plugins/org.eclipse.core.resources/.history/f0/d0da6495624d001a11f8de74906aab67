@@ -1,0 +1,265 @@
+package com.capgemini.librarymanagementsystem.daoimpl;
+
+import java.sql.Connection;
+import java.sql.Date;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.util.ArrayList;
+import java.util.List;
+
+import com.capgemini.librarymanagementsystem.dao.AdminDaoInterface;
+import com.capgemini.librarymanagementsystem.dto.BookInfoBean;
+import com.capgemini.librarymanagementsystem.dto.User;
+import com.capgemini.librarymanagementsystem.serviceimpl.Admin;
+import java.sql.PreparedStatement;
+
+public class AdminDao implements AdminDaoInterface {
+
+	Connection con = null;
+	PreparedStatement pstmt = null;
+	ResultSet rs = null;
+	boolean isAdded;
+	String isAdded2 = null;
+
+	public User loginAdmin(String id, String password) {
+		User user = null;
+		Book book = null;
+
+		try {
+			Class.forName("com.mysql.jdbc.Driver");
+			String dburl = "jdbc:mysql://localhost:3306/librarymanagementsystem_db?user=root&password=shivam";
+			con = DriverManager.getConnection(dburl);
+			String qry = "select * from user where id='" + id + "'and password='" + password;
+			pstmt = con.prepareStatement(qry);
+
+			rs = pstmt.executeQuery();
+
+			if (rs != null) {
+				while (rs.next()) {
+					String name = rs.getString(2);
+					String pass = rs.getString(4);
+				}
+			} else {
+				System.out.println("User not exist.........");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+
+		}
+		return user;
+
+	}
+
+	public boolean addUser(User user) {
+		try {
+			Class.forName("com.mysql.jdbc.Driver");
+			String dburl = "jdbc:mysql://localhost:3306/librarymanagementsystem_db?user=root&password=shivam";
+			con = DriverManager.getConnection(dburl);
+			String qry = "insert into user values(?,?,?,?,?,?,?)";
+			pstmt = (PreparedStatement) con.prepareStatement(qry);
+			pstmt.setString(1, "Admin");
+			pstmt.setString(2, "Pandit");
+			pstmt.setString(3, "111");
+			pstmt.setString(4, "p1234");
+			pstmt.setString(5, "pandit@gmail.com");
+			pstmt.setLong(6, 97865476);
+			pstmt.setDouble(7, 200.5);
+			int r = pstmt.executeUpdate();
+			System.out.println(r);
+			if (r != 0) {
+				isAdded = true;
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return isAdded;
+	}
+
+	public boolean updateUser( String id,User user) {
+		
+		boolean isupdate=false;
+		try {
+			Class.forName("com.mysql.jdbc.Driver");
+			String dburl = "jdbc:mysql://localhost:3306/librarymanagementsystem_db?user=root&password=root";
+
+			con = DriverManager.getConnection(dburl);
+			String qry = "update user set username =?  ,password=?,email=?,contact=?,returndate=?,borrowdate=?,fine=? where  id='"+id+"' ";
+
+			pstmt = (PreparedStatement) con.prepareStatement(qry);
+			pstmt.setString(1, user.getUsername());
+			pstmt.setString(2, user.getPassword());
+			pstmt.setString(3, user.getEmail());
+			pstmt.setLong(4, user.getContact());
+			pstmt.setString(5,user.getReturndate());
+			pstmt.setString(6, user.getBorrowdate());
+			pstmt.setDouble(7, user.getFine());
+			//pstmt.setDouble(8, user.setFine(0));
+			
+			int n=pstmt.executeUpdate();
+			if(n !=0) {
+				 isupdate = true;
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return isupdate;
+	}
+
+	public boolean deleteUser(String id) {
+		User user = new User();
+		try {
+			Class.forName("com.mysql.jdbc.Driver");
+			String dburl = "jdbc:mysql://localhost:3306/librarymanagementsystem_db?user=root&password=root";
+			con = DriverManager.getConnection(dburl);
+			String qry = "delete from user where id=?";
+			pstmt = (PreparedStatement) con.prepareStatement(qry);
+			pstmt.setString(1, id);
+			pstmt.executeUpdate();
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+		return true;
+	}
+
+	@SuppressWarnings("null")
+	public List<String> viewAllUsers(String type) {
+
+		List<String> user = new ArrayList<String>();
+		try {
+			Class.forName("com.mysql.jdbc.Driver");
+			String dburl = "jdbc:mysql://localhost:3306/librarymanagementsystem_db?user=root&password=root";
+			con = DriverManager.getConnection(dburl);
+			String qry = "select * from user where usertype='" + type + "'";
+			PreparedStatement pstmt = (PreparedStatement) con.prepareStatement(qry);
+			rs = pstmt.executeQuery();
+			while (rs.next()) {
+				user.add(type);
+				user.add(rs.getString(2));
+				// user.add(rs.getString(3));
+				// user.add(rs.getString(4));
+				// user.add(rs.getString(5));
+				// user.add(rs.getString(6));
+
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+		return user;
+	}
+
+	public List<String> searchAllBook(String name) {
+		List<String> book = new ArrayList<String>();
+		try {
+			Class.forName("com.mysql.jdbc.Driver");
+			String dburl = "jdbc:mysql://localhost:3306/librarymanagementsystem_db?user=root&password=root";
+			con = DriverManager.getConnection(dburl);
+			String qry = "select *  from book_info where Bookname='"+name+"' ";
+			pstmt = con.prepareStatement(qry);
+			//pstmt.setString(1, name);
+			rs = pstmt.executeQuery();
+			while (rs.next()) {
+				book.add(rs.getString("Bookname"));
+				book.add(rs.getString("Authorname"));
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return book;
+
+	}
+
+	@Override
+	public String add(User u) {
+		try {
+			Class.forName("com.mysql.jdbc.Driver");
+			String dburl = "jdbc:mysql://localhost:3306/librarymanagementsystem_db?user=root&password=root";
+			con = DriverManager.getConnection(dburl);
+			String qry = "insert into user values(?,?,?,?,?,?,?,?,?)";
+			pstmt = (PreparedStatement) con.prepareStatement(qry);
+			pstmt.setString(1, u.getUsertype());
+			pstmt.setString(2, u.getUsername());
+			pstmt.setString(3, u.getId());
+			pstmt.setString(4, u.getPassword());
+			pstmt.setString(5, u.getEmail());
+			pstmt.setLong(6, u.getContact());
+			pstmt.setString(7, u.getBorrowdate());
+			pstmt.setString(8, u.getReturndate());
+			pstmt.setDouble(9, u.getFine());
+			int r = pstmt.executeUpdate();
+			if (r != 0) {
+				isAdded2 = "Successfully Added";
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return isAdded2;
+	}
+
+	public String addbook(BookInfoBean b) {
+
+		try {
+			Class.forName("com.mysql.jdbc.Driver");
+			String dburl = "jdbc:mysql://localhost:3306/librarymanagementsystem_db?user=root&password=root";
+			con = DriverManager.getConnection(dburl);
+			BookInfoBean bi = new BookInfoBean();
+			String qry = "insert into book_info values (?,?,?,?,?,?)";
+			pstmt = (PreparedStatement) con.prepareStatement(qry);
+			pstmt.setString(1, b.getId());
+			pstmt.setString(2, b.getBookId());
+			pstmt.setString(3, b.getBookname());
+			pstmt.setString(4, b.getAuthorname());
+			pstmt.setDouble(5, b.getPrice());
+			pstmt.setInt(6, b.getQuantity());
+
+			int c = pstmt.executeUpdate();
+			if (c != 0) {
+				System.out.println("Book added successfully");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return isAdded2;
+
+	}
+
+//
+//	public static void main(String[] args) {
+//		String res = new AdminDAOImpl().add(new User("Admin", "Ankit2", 2, "Abc", "ridz@gmail.com", 83545777L, 10.26));
+//		System.out.println(res);
+//	}
+
+	@Override
+	public String addbook(String bookid) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean searchbook(String bookname) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public int adduser(String username, String password) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public int addbook(String bookname, String bookId) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public boolean updateUser(String id) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+}

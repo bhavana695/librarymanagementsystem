@@ -1,15 +1,13 @@
 package com.capgemini.librarymanagementsystem.dto;
 
 public class User {
-
 	private String usertype;
 	private String username;
-	private int id;
+	private int Id;
 	private String password;
 	private String email;
 	private long contact;
-	private double fine;
-
+	
 	
 
 	public String getUsertype() {
@@ -29,11 +27,11 @@ public class User {
 	}
 
 	public int getId() {
-		return id;
+		return Id;
 	}
 
-	public void setId(int id) {
-		this.id = id;
+	public void setId(int Id) {
+		this.Id = Id;
 	}
 
 	public String getPassword() {
@@ -64,7 +62,7 @@ public class User {
 		super();
 		this.usertype = usertype;
 		this.username = username;
-		this.id = id;
+		this.Id = Id;
 		this.password = password;
 		this.email = email;
 		this.contact = contact;
@@ -75,6 +73,6 @@ public class User {
 		super();
 	}
 
-	
+
 	
 }

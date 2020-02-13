@@ -105,3 +105,1976 @@
 [main] INFO  student  - 1.Search book
 [main] INFO  student  - 2.Borrow book
 [main] INFO  student  - 3.Return book
+[main] INFO  Management  - Welcome to Library Management System
+[main] INFO  Management  - Select from the following options:
+[main] INFO  Management  - For Admin Login, press 1
+[main] INFO  Management  - For User Login, press 2
+[main] INFO  student  - Student Selected
+[main] INFO  student  - Please Login
+[main] INFO  student  - Enter student id
+[main] INFO  student  - Enter password
+[main] INFO  student  - Student logged in successfully
+[main] INFO  student  -  Choose student operations: 
+[main] INFO  student  - 1.Search book
+[main] INFO  student  - 2.Borrow book
+[main] INFO  student  - 3.Return book
+[main] INFO  Management  - Welcome to Library Management System
+[main] INFO  Management  - Select from the following options:
+[main] INFO  Management  - For Admin Login, press 1
+[main] INFO  Management  - For User Login, press 2
+[main] INFO  student  - Student Selected
+[main] INFO  student  - Please Login
+[main] INFO  student  - Enter student id
+[main] INFO  student  - Enter password
+[main] INFO  student  - Student logged in successfully
+[main] INFO  student  -  Choose student operations: 
+[main] INFO  student  - 1.Search book
+[main] INFO  student  - 2.Borrow book
+[main] INFO  student  - 3.Return book
+[main] INFO  Management  - Welcome to Library Management System
+[main] INFO  Management  - Select from the following options:
+[main] INFO  Management  - For Admin Login, press 1
+[main] INFO  Management  - For User Login, press 2
+[main] INFO  student  - Student Selected
+[main] INFO  student  - Please Login
+[main] INFO  student  - Enter student id
+[main] INFO  student  - Enter password
+[main] INFO  student  - Student logged in successfully
+[main] INFO  student  -  Choose student operations: 
+[main] INFO  student  - 1.Search book
+[main] INFO  student  - 2.Borrow book
+[main] INFO  student  - 3.Return book
+[main] INFO  Management  - Welcome to Library Management System
+[main] INFO  Management  - Select from the following options:
+[main] INFO  Management  - For Admin Login, press 1
+[main] INFO  Management  - For User Login, press 2
+[main] INFO  student  - Student Selected
+[main] INFO  student  - Please Login
+[main] INFO  student  - Enter student id
+[main] INFO  student  - Enter password
+[main] INFO  student  - Student logged in successfully
+[main] INFO  student  -  Choose student operations: 
+[main] INFO  student  - 1.Search book
+[main] INFO  student  - 2.Borrow book
+[main] INFO  student  - 3.Return book
+[main] INFO  Management  - Welcome to Library Management System
+[main] INFO  Management  - Select from the following options:
+[main] INFO  Management  - For Admin Login, press 1
+[main] INFO  Management  - For User Login, press 2
+[main] INFO  student  - Student Selected
+[main] INFO  student  - Please Login
+[main] INFO  student  - Enter student id
+[main] INFO  student  - Enter password
+[main] INFO  student  - Student logged in successfully
+[main] INFO  student  -  Choose student operations: 
+[main] INFO  student  - 1.Search book
+[main] INFO  student  - 2.Borrow book
+[main] INFO  student  - 3.Return book
+[main] INFO  Management  - Welcome to Library Management System
+[main] INFO  Management  - Select from the following options:
+[main] INFO  Management  - For Admin Login, press 1
+[main] INFO  Management  - For User Login, press 2
+[main] INFO  student  - Student Selected
+[main] INFO  student  - Please Login
+[main] INFO  student  - Enter student id
+[main] INFO  student  - Enter password
+[main] INFO  student  - Student logged in successfully
+[main] INFO  student  -  Choose student operations: 
+[main] INFO  student  - 1.Search book
+[main] INFO  student  - 2.Borrow book
+[main] INFO  student  - 3.Return book
+[main] INFO  student  - Book Name    :c++
+[main] INFO  student  - Author name  :hbj
+[main] INFO  student  - Price        :0.0
+[main] INFO  Management  - Welcome to Library Management System
+[main] INFO  Management  - Select from the following options:
+[main] INFO  Management  - For Admin Login, press 1
+[main] INFO  Management  - For User Login, press 2
+[main] INFO  Management  - Welcome to Library Management System
+[main] INFO  Management  - Select from the following options:
+[main] INFO  Management  - For Admin Login, press 1
+[main] INFO  Management  - For User Login, press 2
+[main] INFO  student  - Student Selected
+[main] INFO  student  - Please Login
+[main] INFO  student  - Enter student id
+[main] INFO  student  - Enter password
+[main] INFO  student  - Student logged in successfully
+[main] INFO  student  -  Choose student operations: 
+[main] INFO  student  - 1.Search book
+[main] INFO  student  - 2.Borrow book
+[main] INFO  student  - 3.Return book
+[main] INFO  Management  - Welcome to Library Management System
+[main] INFO  Management  - Select from the following options:
+[main] INFO  Management  - For Admin Login, press 1
+[main] INFO  Management  - For Student Login, press 2
+[main] INFO  student  - Student Selected
+[main] INFO  student  - Please Login
+[main] INFO  student  - Enter student id
+[main] INFO  student  - Enter password
+[main] INFO  student  - Student logged in successfully
+[main] INFO  student  -  Choose student operations: 
+[main] INFO  student  - 1.Search book
+[main] INFO  student  - 2.Borrow book
+[main] INFO  student  - 3.Return book
+[main] INFO  Management  - Welcome to Library Management System
+[main] INFO  Management  - Select from the following options:
+[main] INFO  Management  - For Admin Login, press 1
+[main] INFO  Management  - For Student Login, press 2
+[main] INFO  student  - Student Selected
+[main] INFO  student  - Please Login
+[main] INFO  student  - Enter student id
+[main] INFO  student  - Enter password
+[main] INFO  student  - Student logged in successfully
+[main] INFO  student  -  Choose student operations: 
+[main] INFO  student  - 1.Search book
+[main] INFO  student  - 2.Borrow book
+[main] INFO  student  - 3.Return book
+[main] INFO  Management  - Welcome to Library Management System
+[main] INFO  Management  - Select from the following options:
+[main] INFO  Management  - For Admin Login, press 1
+[main] INFO  Management  - For Student Login, press 2
+[main] INFO  student  - Student Selected
+[main] INFO  student  - Please Login
+[main] INFO  student  - Enter student id
+[main] INFO  student  - Enter password
+[main] INFO  student  - Student logged in successfully
+[main] INFO  student  -  Choose student operations: 
+[main] INFO  student  - 1.Search book
+[main] INFO  student  - 2.Borrow book
+[main] INFO  student  - 3.Return book
+[main] INFO  student  - Book Name    :c++
+[main] INFO  student  - Author name  :null
+[main] INFO  student  - Price        :0.0
+[main] INFO  Management  - Welcome to Library Management System
+[main] INFO  Management  - Select from the following options:
+[main] INFO  Management  - For Admin Login, press 1
+[main] INFO  Management  - For Student Login, press 2
+[main] INFO  Management  - Welcome to Library Management System
+[main] INFO  Management  - Select from the following options:
+[main] INFO  Management  - For Admin Login, press 1
+[main] INFO  Management  - For Student Login, press 2
+[main] INFO  Management  - Welcome to Library Management System
+[main] INFO  Management  - Select from the following options:
+[main] INFO  Management  - For Admin Login, press 1
+[main] INFO  Management  - For Student Login, press 2
+[main] INFO  Management  - Welcome to Library Management System
+[main] INFO  Management  - Select from the following options:
+[main] INFO  Management  - For Admin Login, press 1
+[main] INFO  Management  - For Student Login, press 2
+[main] INFO  admin  - Admin Selected
+[main] INFO  admin  - Enter username: 
+[main] INFO  Management  - Welcome to Library Management System
+[main] INFO  Management  - Select from the following options:
+[main] INFO  Management  - For Admin Login, press 1
+[main] INFO  Management  - For Student Login, press 2
+[main] INFO  admin  - Admin Selected
+[main] INFO  admin  - Enter Admin id: 
+[main] INFO  admin  - Enter password: 
+[main] INFO  admin  - Admin Login successfully
+[main] INFO  admin  -  Choose Admin operations: 
+[main] INFO  admin  - 1.view users
+[main] INFO  admin  - 2.add User
+[main] INFO  admin  - 3.delete User
+[main] INFO  admin  - 4.update User
+[main] INFO  admin  - 5.Search Book
+[main] INFO  admin  - 6.Add Book
+[main] INFO  admin  - 7.login
+[main] INFO  Management  - Welcome to Library Management System
+[main] INFO  Management  - Select from the following options:
+[main] INFO  Management  - For Admin Login, press 1
+[main] INFO  Management  - For Student Login, press 2
+[main] INFO  Management  - Welcome to Library Management System
+[main] INFO  Management  - Select from the following options:
+[main] INFO  Management  - For Admin Login, press 1
+[main] INFO  Management  - For Student Login, press 2
+[main] INFO  Management  - Invalid Option!!
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Invalid Option!!
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Student Selected
+Please Login
+Enter student id
+Enter password
+Student logged in successfully
+ Choose student operations: 
+1.Search book
+2.Borrow book
+3.Return book
+------All Books---------
+------Select Book---------
+null)java
+null)c++
+11/2/120
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Student Selected
+Please Login
+Enter student id
+Enter password
+Student logged in successfully
+ Choose student operations: 
+1.Search book
+2.Borrow book
+3.Return book
+------All Books---------
+------Select Book---------
+null)java
+null)c++
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Student Selected
+Please Login
+Enter student id
+Enter password
+Student logged in successfully
+ Choose student operations: 
+1.Search book
+2.Borrow book
+3.Return book
+------All Books---------
+------Select Book---------
+50)java
+76)c++
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Student Selected
+Please Login
+Enter student id
+Enter password
+Student logged in successfully
+ Choose student operations: 
+1.Search book
+2.Borrow book
+3.Return book
+------All Books---------
+------Select Book---------
+50)java
+76)c++
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Student Selected
+Please Login
+Enter student id
+Enter password
+Student logged in successfully
+ Choose student operations: 
+1.Search book
+2.Borrow book
+3.Return book
+------All Books---------
+------Select Book---------
+50)java
+76)c++
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Student Selected
+Please Login
+Enter student id
+Enter password
+Student logged in successfully
+ Choose student operations: 
+1.Search book
+2.Borrow book
+3.Return book
+------All Books---------
+------Select Book---------
+50)java
+76)c++
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Student Selected
+Please Login
+Enter student id
+Enter password
+Student logged in successfully
+ Choose student operations: 
+1.Search book
+2.Borrow book
+3.Return book
+------All Books---------
+------Select Book---------
+50)java
+76)c++
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Student Selected
+Please Login
+Enter student id
+Enter password
+Student logged in successfully
+ Choose student operations: 
+1.Search book
+2.Borrow book
+3.Return book
+------All Books---------
+------Select Book---------
+50)java
+76)c++
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Student Selected
+Please Login
+Enter student id
+Enter password
+Student logged in successfully
+ Choose student operations: 
+1.Search book
+2.Borrow book
+3.Return book
+------All Books---------
+------Select Book---------
+50)java
+76)c++
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Student Selected
+Please Login
+Enter student id
+Enter password
+Student logged in successfully
+ Choose student operations: 
+1.Search book
+2.Borrow book
+3.Return book
+------All Books---------
+------Select Book---------
+50)java
+76)c++
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Student Selected
+Please Login
+Enter student id
+Enter password
+Student logged in successfully
+ Choose student operations: 
+1.Search book
+2.Borrow book
+3.Return book
+------All Books---------
+------Select Book---------
+50)java
+76)c++
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Student Selected
+Please Login
+Enter student id
+Enter password
+Student logged in successfully
+ Choose student operations: 
+1.Search book
+2.Borrow book
+3.Return book
+------All Books---------
+------Select Book---------
+50)java
+76)c++
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Student Selected
+Please Login
+Enter student id
+Enter password
+Student logged in successfully
+ Choose student operations: 
+1.Search book
+2.Borrow book
+3.Return book
+not returned
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Student Selected
+Please Login
+Enter student id
+Enter password
+Student logged in successfully
+ Choose student operations: 
+1.Search book
+2.Borrow book
+3.Return book
+book returned
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Student Selected
+Please Login
+Enter student id
+Enter password
+Student logged in successfully
+ Choose student operations: 
+1.Search book
+2.Borrow book
+3.Return book
+------All Books---------
+------Select Book---------
+50)java
+76)c++
+Book is borrowed
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Student Selected
+Please Login
+Enter student id
+Enter password
+Student logged in successfully
+ Choose student operations: 
+1.Search book
+2.Borrow book
+3.Return book
+book returned
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Student Selected
+Please Login
+Enter student id
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Student Selected
+Please Login
+Enter student id
+Enter password
+Student logged in successfully
+ Choose student operations: 
+1.Search book
+2.Borrow book
+3.Return book
+------All Books---------
+------Select Book---------
+50)java
+76)c++
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Student Selected
+Please Login
+Enter student id
+Enter password
+Student logged in successfully
+ Choose student operations: 
+1.Search book
+2.Borrow book
+3.Return book
+not returned
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Student Selected
+Please Login
+Enter student id
+Enter password
+Student logged in successfully
+ Choose student operations: 
+1.Search book
+2.Borrow book
+3.Return book
+------All Books---------
+------Select Book---------
+50)java
+76)c++
+Book is borrowed
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Student Selected
+Please Login
+Enter student id
+Enter password
+Student logged in successfully
+ Choose student operations: 
+1.Search book
+2.Borrow book
+3.Return book
+book returned
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Student Selected
+Please Login
+Enter student id
+Enter password
+Student logged in successfully
+ Choose student operations: 
+1.Search book
+2.Borrow book
+3.Return book
+------All Books---------
+------Select Book---------
+50)java
+76)c++
+Book is borrowed
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Student Selected
+Please Login
+Enter student id
+Enter password
+Student logged in successfully
+ Choose student operations: 
+1.Search book
+2.Borrow book
+3.Return book
+------All Books---------
+------Select Book---------
+50)java
+76)c++
+Not borrowed
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Admin Login successfully
+ Choose Admin operations: 
+1.View users
+2.Add User
+3.Delete User
+4.Update User
+5.Search Book
+6.Add Book
+7.Login
+Enter User details:
+enter usertype
+enter username
+Enter id
+enter password
+enter email
+enter contact no
+borrow date of book
+return date of book
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Admin Login successfully
+ Choose Admin operations are:
+1.view users
+2.add User
+3.delete User
+4.update User
+5.Search Book
+6.Add Book
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Admin Login successfully
+ Choose Admin operations are:
+1.view users
+2.add User
+3.delete User
+4.update User
+5.Search Book
+6.Add Book
+Student
+shivam
+19
+xcv 
+cvb
+6
+Student
+bhavana
+20
+qwerty
+bhava@gmail.com
+9656395082
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Admin Login successfully
+ Choose Admin operations are:
+1.View Users
+2.Add User
+3.Delete User
+4.Update User
+5.Search Book
+6.Add Book
+enter user details:
+enter usertype
+enter username
+Enter id
+enter password
+enter email
+enter contact no
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Admin Login successfully
+ Choose Admin operations are:
+1.View Users
+2.Add User
+3.Delete User
+4.Update User
+5.Search Book
+6.Add Book
+Enter id of user which u want to delete
+record deleted:false
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Admin Login successfully
+ Choose Admin operations are:
+1.View Users
+2.Add User
+3.Delete User
+4.Update User
+5.Search Book
+6.Add Book
+Enter user id which u want to update
+enter the username
+enter the Password
+enter the emailid
+enter the contact no
+borrow date of book
+Failed
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Admin Login successfully
+ Choose Admin operations are:
+1.View Users
+2.Add User
+3.Delete User
+4.Update User
+5.Search Book
+6.Add Book
+Enter user id which u want to update
+enter the username
+enter the Password
+enter the emailid
+enter the contact no
+borrow date of book
+Insertion Successfully
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Admin Login successfully
+ Choose Admin operations are:
+1.View Users
+2.Add User
+3.Delete User
+4.Update User
+5.Search Book
+6.Add Book
+Enter the id of user you want to update: 
+Enter username
+Enter password
+Enter email id
+Enter contact no
+Updation successfull
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Admin Login successfully
+ Choose Admin operations are:
+1.View Users
+2.Add User
+3.Delete User
+4.Update User
+5.Search Book
+6.Add Book
+Search book name
+Searched book is:[c++, hbj]
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Admin Login successfully
+ Choose Admin operations are:
+1.View Users
+2.Add User
+3.Delete User
+4.Update User
+5.Search Book
+6.Add Book
+Enter the book details:
+enter user id
+Enter id
+Enter bookId
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Admin Login successfully
+ Choose Admin operations are:
+1.View Users
+2.Add User
+3.Delete User
+4.Update User
+5.Search Book
+6.Add Book
+Enter the book details:
+enter user id
+Enter id
+Enter bookId
+Enter bookname
+No of books borrowed 
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Admin Login successfully
+ Choose Admin operations are:
+1.View Users
+2.Add User
+3.Delete User
+4.Update User
+5.Search Book
+6.Add Book
+Enter the book details:
+Enter id
+Enter bookId
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Student Selected
+Please Login
+Enter student email
+Enter password
+ Choose student operations: 
+1.Search book
+2.Borrow book
+3.Return book
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Student Selected
+Please Login
+Enter student email
+Enter password
+ Choose student operations: 
+1.Search book
+2.Borrow book
+3.Return book
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Student Selected
+Please Login
+Enter student email
+Enter password
+ Choose student operations: 
+1.Search book
+2.Borrow book
+3.Return book
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Student Selected
+Please Login
+Enter student email
+Enter password
+Student logged in successfully
+ Choose student operations: 
+1.Search book
+2.Borrow book
+3.Return book
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Student Selected
+Please Login
+Enter student email
+Enter password
+Student logged in successfully
+ Choose student operations: 
+1.Search book
+2.Borrow book
+3.Return book
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Student Selected
+Please Login
+Enter student email
+Enter password
+Student logged in successfully
+ Choose student operations: 
+1.Search book
+2.Borrow book
+3.Return book
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Student Selected
+Please Login
+Enter student email
+Enter password
+Student logged in successfully
+ Choose student operations: 
+1.Search book
+2.Borrow book
+3.Return book
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Admin Login successfully
+ Choose Admin operations are:
+1.View Users
+2.Add User
+3.Delete User
+4.Update User
+5.Search Book
+6.Add Book
+Enter User details:
+Enter Usertype
+Enter Username
+Enter Id
+Enter Password
+Enter Email
+Enter Contact no
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Admin Login successfully
+ Choose Admin operations are:
+1.View Users
+2.Add User
+3.Delete User
+4.Update User
+5.Search Book
+6.Add Book
+Enter the id of user you want to delete: 
+Record deleted: true
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Admin Login successfully
+ Choose Admin operations are:
+1.View Users
+2.Add User
+3.Delete User
+4.Update User
+5.Search Book
+6.Add Book
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Admin Login successfully
+ Choose Admin operations are:
+1.View Users
+2.Add User
+3.Delete User
+4.Update User
+5.Search Book
+6.Add Book
+Enter User details: 
+Enter Usertype
+Enter Username: 
+Enter Id: 
+Enter Password: 
+Enter Email: 
+Enter Contact no: 
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Admin Login successfully
+ Choose Admin operations are:
+1.View Users
+2.Add User
+3.Delete User
+4.Update User
+5.Search Book
+6.Add Book
+Enter the id of user you want to delete: 
+Record deleted: true
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Admin Login successfully
+ Choose Admin operations are:
+1.View Users
+2.Add User
+3.Delete User
+4.Update User
+5.Search Book
+6.Add Book
+Enter the id of user you want to delete: 
+Record deleted: true
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Admin Login successfully
+ Choose Admin operations are:
+1.View Users
+2.Add User
+3.Delete User
+4.Update User
+5.Search Book
+6.Add Book
+Enter the id of user you want to update: 
+Enter username
+Enter password: 
+Enter email id: 
+Enter contact no: 
+Updation failed
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Admin Login successfully
+ Choose Admin operations are:
+1.View Users
+2.Add User
+3.Delete User
+4.Update User
+5.Search Book
+6.Add Book
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Admin Login successfully
+ Choose Admin operations are:
+1.View Users
+2.Add User
+3.Delete User
+4.Update User
+5.Search Book
+6.Add Book
+Search book name
+Searched book is:[]
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Admin Login successfully
+ Choose Admin operations are:
+1.View Users
+2.Add User
+3.Delete User
+4.Update User
+5.Search Book
+6.Add Book
+Enter the book details: 
+Enter id: 
+Enter bookId: 
+Enter bookname: 
+No of books borrowed: 
+No of books returned: 
+Enter author name: 
+Enter book price: 
+Enter book quantity: 
+
+Enter bookname: 
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Admin Login successfully
+ Choose Admin operations are:
+1.View Users
+2.Add User
+3.Delete User
+4.Update User
+5.Search Book
+6.Add Book
+Enter the book details: 
+Enter id: 
+Enter bookId: 
+Enter bookname: 
+No of books borrowed: 
+No of books returned: 
+Enter author name: 
+Enter book price: 
+Enter book quantity: 
+
+Enter bookname: 
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Admin Login successfully
+ Choose Admin operations are:
+1.View Users
+2.Add User
+3.Delete User
+4.Update User
+5.Search Book
+6.Add Book
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Admin Selected
+Please Login
+Enter admin email
+Enter password
+ Login failed
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Admin Selected
+Please Login
+Enter admin email
+Enter password
+ Login failed
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Admin Selected
+Please Login
+Enter admin email
+Enter password
+ Login failed
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Admin Selected
+Please Login
+Enter admin email
+Enter password
+Admin Login successfull
+ Choose Admin operations are:
+1.View Users
+2.Add User
+3.Delete User
+4.Update User
+5.Search Book
+6.Add Book
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Admin Selected
+Please Login
+Enter admin email
+Enter password
+Admin Login successfull
+ Choose Admin operations are:
+1.View Users
+2.Add User
+3.Delete User
+4.Update User
+5.Search Book
+6.Add Book
+Student
+Nivedita
+1
+dfjkndfj
+nivadas@gmail.com
+9961815825
+Student
+bhavana
+20
+qwerty
+bhava@gmail.com
+9656395082
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Admin Selected
+Please Login
+Enter admin email
+Enter password
+Admin Login successfull
+ Choose Admin operations are:
+1.View Users
+2.Add User
+3.Delete User
+4.Update User
+5.Search Book
+6.Add Book
+Enter User details: 
+Enter Usertype: 
+Enter Username: 
+Enter Id: 
+Enter Password: 
+Enter Email: 
+Enter Contact no: 
+Successfully Added
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Admin Selected
+Please Login
+Enter admin email
+Enter password
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Admin Selected
+Please Login
+Enter admin email
+Enter password
+Admin Login successfull
+ Choose Admin operations are:
+1.View Users
+2.Add User
+3.Delete User
+4.Update User
+5.Search Book
+6.Add Book
+Student
+Nivedita
+1
+dfjkndfj
+nivadas@gmail.com
+9961815825
+Student
+bhavana
+20
+qwerty
+bhava@gmail.com
+9656395082
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Admin Selected
+Please Login
+Enter admin email
+Enter password
+Admin Login successfull
+ Choose Admin operations are:
+1.View Users
+2.Add User
+3.Delete User
+4.Update User
+5.Search Book
+6.Add Book
+Enter the id of user you want to update: 
+Enter username
+Enter password: 
+Enter email id: 
+Enter contact no: 
+Updation failed
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Admin Selected
+Please Login
+Enter admin email
+Enter password
+Admin Login successfull
+ Choose Admin operations are:
+1.View Users
+2.Add User
+3.Delete User
+4.Update User
+5.Search Book
+6.Add Book
+Enter the id of user you want to update: 
+Enter username
+Enter password: 
+Enter email id: 
+Enter contact no: 
+Updation failed
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Admin Selected
+Please Login
+Enter admin email
+Enter password
+Admin Login successfull
+ Choose Admin operations are:
+1.View Users
+2.Add User
+3.Delete User
+4.Update User
+5.Search Book
+6.Add Book
+Enter the id of user you want to update: 
+Enter username
+Enter password: 
+Enter email id: 
+Enter contact no: 
+Updation successfull
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Admin Selected
+Please Login
+Enter admin email
+Enter password
+Admin Login successfull
+ Choose Admin operations are:
+1.View Users
+2.Add User
+3.Delete User
+4.Update User
+5.Search Book
+6.Add Book
+Search book name
+Searched book is:java
+Searched book is:mcgraw
+Searched book is:600
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Admin Selected
+Please Login
+Enter admin email
+Enter password
+Admin Login successfull
+ Choose Admin operations are:
+1.View Users
+2.Add User
+3.Delete User
+4.Update User
+5.Search Book
+6.Add Book
+Search book name
+Searched book is:
+java
+-----------------------
+mcgraw
+-----------------------
+600
+-----------------------
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Admin Selected
+Please Login
+Enter admin email
+Enter password
+Admin Login successfull
+ Choose Admin operations are:
+1.View Users
+2.Add User
+3.Delete User
+4.Update User
+5.Search Book
+6.Add Book
+Enter the book details: 
+Enter id: 
+Enter bookId: 
+Enter bookname: 
+No of books borrowed: 
+No of books returned: 
+Enter author name: 
+Enter book price: 
+Enter book quantity: 
+Invalid Choice!!
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Admin Selected
+Please Login
+Enter admin email
+Enter password
+Admin Login successfull
+ Choose Admin operations are:
+1.View Users
+2.Add User
+3.Delete User
+4.Update User
+5.Search Book
+6.Add Book
+Enter the book details: 
+Enter id: 
+Enter bookId: 
+Enter bookname: 
+No of books borrowed: 
+No of books returned: 
+Enter author name: 
+Enter book price: 
+Enter book quantity: 
+Book added successfully
+Invalid Choice!!
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Admin Selected
+Please Login
+Enter admin email
+Enter password
+Admin Login successfull
+ Choose Admin operations are:
+1.View Users
+2.Add User
+3.Delete User
+4.Update User
+5.Search Book
+6.Add Book
+Enter the book details: 
+Enter id: 
+Enter bookId: 
+Enter bookname: 
+No of books borrowed: 
+No of books returned: 
+Enter author name: 
+Enter book price: 
+Enter book quantity: 
+Book added successfully
+Invalid Choice!!
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Admin Selected
+Please Login
+Enter admin email
+Enter password
+Admin Login successfull
+ Choose Admin operations are:
+1.View Users
+2.Add User
+3.Delete User
+4.Update User
+5.Search Book
+6.Add Book
+Enter the id of user you want to delete: 
+Record deleted: true
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Admin Selected
+Please Login
+Enter admin email
+Enter password
+Admin Login successfull
+ Choose Admin operations are:
+1.View Users
+2.Add User
+3.Delete User
+4.Update User
+5.Search Book
+6.Add Book
+Enter the id of user you want to delete: 
+Record deleted: true
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Admin Selected
+Please Login
+Enter admin email
+Enter password
+Admin Login successfull
+ Choose Admin operations are:
+1.View Users
+2.Add User
+3.Delete User
+4.Update User
+5.Search Book
+6.Add Book
+Enter the id of user you want to delete: 
+Record deleted: true
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Student Selected
+Please Login
+Enter student email
+Enter password
+Student logged in successfully
+ Choose student operations: 
+1.Search book
+2.Borrow book
+3.Return book
+------All Books---------
+------Select Book---------
+50)java
+59)spring
+76)c++
+Book is borrowed
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Student Selected
+Please Login
+Enter student email
+Enter password
+Student logged in successfully
+ Choose student operations: 
+1.Search book
+2.Borrow book
+3.Return book
+------All Books---------
+------Select Book---------
+50)java
+59)spring
+76)c++
+Not borrowed
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Student Selected
+Please Login
+Enter student email
+Enter password
+Student logged in successfully
+ Choose student operations: 
+1.Search book
+2.Borrow book
+3.Return book
+------All Books---------
+------Select Book---------
+50)java
+59)spring
+76)c++
+Book is borrowed
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Student Selected
+Please Login
+Enter student email
+Enter password
+Student logged in successfully
+ Choose student operations: 
+1.Search book
+2.Borrow book
+3.Return book
+------All Books---------
+------Select Book---------
+50)java
+59)spring
+76)c++
+Book is borrowed
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Student Selected
+Please Login
+Enter student email
+Enter password
+ Choose student operations: 
+1.Search book
+2.Borrow book
+3.Return book
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Student Selected
+Please Login
+Enter student email
+Enter password
+Invalid credentials!
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Student Selected
+Please Login
+Enter student email
+Enter password
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Student Selected
+Please Login
+Enter student email
+Enter password
+Student logged in successfully
+ Choose student operations: 
+1.Search book
+2.Borrow book
+3.Return book
+------All Books---------
+------Select Book---------
+50)java
+59)spring
+76)c++
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Student Selected
+Please Login
+Enter student email
+Enter password
+Student logged in successfully
+ Choose student operations: 
+1.Search book
+2.Borrow book
+3.Return book
+4.Show all books
+------All Books---------
+------Select Book---------
+50)java
+59)spring
+76)c++
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Student Selected
+Please Login
+Enter student email
+Enter password
+Student logged in successfully
+ Choose student operations: 
+1.Search book
+2.Borrow book
+3.Return book
+4.Show all books
+------All Books---------
+50)java
+59)spring
+76)c++
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Admin Selected
+Please Login
+Enter admin email
+Enter password
+Admin Login successfull
+ Choose Admin operations are:
+1.View Users
+2.Add User
+3.Delete User
+4.Update User
+5.Search Book
+6.Add Book
+7.delete Book
+Enter the id of book you want to delete: 
+Welcome to Library Management System
+Select from the following options:
+For Admin Login, press 1
+For Student Login, press 2
+Admin Selected
+Please Login
+Enter admin email
+Enter password
+Admin Login successfull
+ Choose Admin operations are:
+1.View Users
+2.Add User
+3.Delete User
+4.Update User
+5.Search Book
+6.Add Book
+7.delete Book
+Enter the id of book you want to delete: 
+Deleted
+Welcome to Library
+Select from the following options:
+1. Admin
+2. Student
+--------------------------
+Enter your choice
+--------------------------
+Student Selected
+Please Login
+Enter student email
+Enter password
+Student logged in successfully
+ Choose student operations: 
+1.Search book
+2.Borrow book
+3.Return book
+4.Show all books
+------All Books---------
+------Select Book---------
+50)java
+59)spring
+Book is borrowed
+Select from the following options:
+1. Admin
+2. Student
+--------------------------
+Enter your choice
+--------------------------
+Welcome to Library
+Select from the following options:
+1. Admin
+2. Student
+--------------------------
+Enter your choice
+--------------------------
+Invalid Option!!
+Select from the following options:
+1. Admin
+2. Student
+--------------------------
+Enter your choice
+--------------------------
+Welcome to Library
+Select from the following options:
+1. Admin
+2. Student
+--------------------------
+Enter your choice
+--------------------------
+Invalid Option!!
+Select from the following options:
+1. Admin
+2. Student
+--------------------------
+Enter your choice
+--------------------------
+Welcome to Library
+Select from the following options:
+1. Admin
+2. Student
+--------------------------
+Enter your choice
+--------------------------
+Admin Selected
+Please Login
+Enter admin email
+Enter password
+ Login failed
+Select from the following options:
+1. Admin
+2. Student
+--------------------------
+Enter your choice
+--------------------------
+Welcome to Library
+Select from the following options:
+1. Admin
+2. Student
+--------------------------
+Enter your choice
+--------------------------
+Welcome to Library
+Select from the following options:
+1. Admin
+2. Student
+--------------------------
+Enter your choice
+--------------------------
+Admin Selected
+Please Login
+Enter admin email
+Enter password
+ Login failed
+Select from the following options:
+1. Admin
+2. Student
+--------------------------
+Enter your choice
+--------------------------
+Admin Selected
+Please Login
+Enter admin email
+Welcome to Library
+Select from the following options:
+1. Admin
+2. Student
+--------------------------
+Enter your choice
+--------------------------
+Admin Selected
+Please Login
+Enter admin email
+Enter password
+Admin Login successfull
+ Choose Admin operations are:
+1.View Users
+2.Add User
+3.Delete User
+4.Update User
+5.Search Book
+6.Add Book
+7.delete Book
+Enter User details: 
+Enter Usertype: 
+Enter Username: 
+Enter Id: 
+Enter Password: 
+Enter Email: 
+Welcome to Library
+Select from the following options:
+1. Admin
+2. Student
+--------------------------
+Enter your choice
+--------------------------
+Admin Selected
+Please Login
+Enter admin email
+Enter password
+Admin Login successfull
+ Choose Admin operations are:
+1.View Users
+2.Add User
+3.Delete User
+4.Update User
+5.Search Book
+6.Add Book
+7.delete Book
+Enter the book details: 
+Enter id: 
+Enter bookId: 
+Enter bookname: 
+No of books borrowed: 
+No of books returned: 
+Enter author name: 
+Enter book price: 
+Welcome to Library
+Select from the following options:
+1. Admin
+2. Student
+--------------------------
+Enter your choice
+--------------------------
+Admin Selected
+Please Login
+Enter admin email
+Enter password
+Admin Login successfull
+ Choose Admin operations are:
+1.View Users
+2.Add User
+3.Delete User
+4.Update User
+5.Search Book
+6.Add Book
+7.delete Book
+Enter the book details: 
+Enter bookId: 
+Enter bookname: 
+Enter author name: 
+Enter book price: 
+Welcome to Library
+Select from the following options:
+1. Admin
+2. Student
+--------------------------
+Enter your choice
+--------------------------
+Admin Selected
+Please Login
+Enter admin email
+Enter password
+Admin Login successfull
+ Choose Admin operations are:
+1.View Users
+2.Add User
+3.Delete User
+4.Update User
+5.Search Book
+6.Add Book
+7.delete Book
+Enter the book details: 
+Enter bookId: 
+Enter bookname: 
+Enter author name: 
+Enter book price: 
+Welcome to Library
+Select from the following options:
+1. Admin
+2. Student
+--------------------------
+Enter your choice
+--------------------------
+Admin Selected
+Please Login
+Enter admin email
+Enter password
+Admin Login successfull
+ Choose Admin operations are:
+1.View Users
+2.Add User
+3.Delete User
+4.Update User
+5.Search Book
+6.Add Book
+7.delete Book
+Student
+divya
+12
+erty
+abcd
+899898
+Student
+bhavana
+20
+qwerty
+bhava@gmail.com
+9656395082
+Select from the following options:
+1. Admin
+2. Student
+--------------------------
+Enter your choice
+--------------------------
+Welcome to Library
+Select from the following options:
+1. Admin
+2. Student
+--------------------------
+Enter your choice
+--------------------------
+Admin Selected
+Please Login
+Enter admin email
+Enter password
+Admin Login successfull
+ Choose Admin operations are:
+1.View Users
+2.Add User
+3.Delete User
+4.Update User
+5.Search Book
+6.Add Book
+7.delete Book
+Enter User details: 
+Enter Usertype: 
+Enter Username: 
+Enter Id: 
+Enter Password: 
+Enter Email: 
+Enter Contact no: 
+Welcome to Library
+Select from the following options:
+1. Admin
+2. Student
+--------------------------
+Enter your choice
+--------------------------
+Admin Selected
+Please Login
+Enter admin email
+Enter password
+Admin Login successfull
+ Choose Admin operations are:
+1.View Users
+2.Add User
+3.Delete User
+4.Update User
+5.Search Book
+6.Add Book
+7.delete Book
+Enter the id of user you want to delete: 
+Record deleted: false
+Select from the following options:
+1. Admin
+2. Student
+--------------------------
+Enter your choice
+--------------------------
+Welcome to Library
+Select from the following options:
+1. Admin
+2. Student
+--------------------------
+Enter your choice
+--------------------------
+Admin Selected
+Please Login
+Enter admin email
+Enter password
+Admin Login successfull
+ Choose Admin operations are:
+1.View Users
+2.Add User
+3.Delete User
+4.Update User
+5.Search Book
+6.Add Book
+7.delete Book
+Enter the id of user you want to update: 
+Enter username
+Enter password: 
+Enter email id: 
+Enter contact no: 
+Updation successfull
+Select from the following options:
+1. Admin
+2. Student
+--------------------------
+Enter your choice
+--------------------------
+Welcome to Library
+Select from the following options:
+1. Admin
+2. Student
+--------------------------
+Enter your choice
+--------------------------

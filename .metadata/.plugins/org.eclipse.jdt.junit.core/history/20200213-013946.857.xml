@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="LoginTest" project="librarymanagementsystem" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.capgemini.librarymanagementsystem.controller.LoginTest" time="0.045" displayname="LoginTest" uniqueid="[engine:junit-jupiter]/[class:com.capgemini.librarymanagementsystem.controller.LoginTest]">
+    <testcase name="Logintest" classname="com.capgemini.librarymanagementsystem.controller.LoginTest" time="0.045" displayname="Logintest()" uniqueid="[engine:junit-jupiter]/[class:com.capgemini.librarymanagementsystem.controller.LoginTest]/[method:Logintest()]"/>
+  </testsuite>
+</testrun>
